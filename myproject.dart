@@ -10,7 +10,9 @@ int calculate() {
 
 void main() {
   var name = "BISHOP STUART UNIVERSITY";
+   // ignore: non_constant_identifier_names
    int AGE  = 30;
+  // ignore: non_constant_identifier_names
   var FIRSTNAME="NIWAHEREZA";
   var secNAME="LONNET";
 
