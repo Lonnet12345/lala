@@ -61,6 +61,11 @@ String getName3() {
 int getMyage() {
   // print("How old are you ?");
   var age = stdin.readLineSync();
-  print("My Age is:$age");
+  // print("My Age is:$age");
   return int.parse(age ?? "0");
-} 
+
+  String myFirstname() {
+    print("myFirstname");
+    return "lonnet";
+  }
+}
