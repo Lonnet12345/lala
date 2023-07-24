@@ -63,9 +63,4 @@ int getMyage() {
   var age = stdin.readLineSync();
   // print("My Age is:$age");
   return int.parse(age ?? "0");
-
-  String myFirstname() {
-    print("myFirstname");
-    return "lonnet";
-  }
 }
